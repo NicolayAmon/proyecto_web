@@ -26,13 +26,13 @@ header h1 {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    text-decoration: none; /*quita el subrayado si es un enlace*/
+    border-radius: 5px;    /*esquinas redondeadas*/
+    transition: background-color 0.3s ease; /*cambia de color al pasar el mouse*/
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /*cambia el fondo del boton al pasar el cursor*/
 }
 
 section {
@@ -44,12 +44,12 @@ h2 {
 }
 
 .feature {
-    text-align: center;
-    margin-bottom: 30px;
+    text-align: center; /*centra el contenido*/
+    margin-bottom: 30px; /*agrega espacio inferior*/
 }
 
 .feature h3 {
-    font-size: 1.5em;
+    font-size: 1.5em; /*aumenta el tamaño del titulo*/
 }
 
 .testimonial {
@@ -72,9 +72,9 @@ form {
     margin: 0 auto;
 }
 
-input[type="text"],
+input[type="text"],        
 input[type="email"],
-textarea {
+textarea {                    /*estilo para campos de texto y area de texto*/
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -92,11 +92,11 @@ button[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
-button[type="submit"]:hover {
+button[type="submit"]:hover {      /*cambia el color al pasar el mouse sobre el boton*/
     background-color: #0056b3;
 }
 
-footer {
+footer {                            /*estilo del pie de pagina*/
     background-color: #333;
     color: #fff;
     text-align: center;
